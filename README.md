@@ -1,8 +1,7 @@
-# Jogo da Memória
-
-## Seu Nome Completo
+## Jogo da Memória
 
 Gabriel Alves Teixeira
+<br/>
 Lucas Luidy Tolentino Gonçalves
 
 ## Regras do Jogo
