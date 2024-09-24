@@ -18,7 +18,7 @@ O Jogo da Memória é um jogo em que os jogadores devem encontrar pares de carta
 3. O jogo termina quando todos os pares foram encontrados.
 4. Após o término, insira seu nome para o ranking e veja sua pontuação.
 
-## Como Outros Podem Replicar e Executar o Projeto
+## Para Replicar e Executar o Projeto
 
 1. Clone este repositório usando:
    git clone https://github.com/GabrielVesal/JogodaMemoria.git
