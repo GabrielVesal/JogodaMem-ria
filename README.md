@@ -21,7 +21,7 @@ O Jogo da Memória é um jogo em que os jogadores devem encontrar pares de carta
 ## Como Outros Podem Replicar e Executar o Projeto
 
 1. Clone este repositório usando:
-   git clone https://github.com/seuusuario/seurepositorio.git
+   git clone https://github.com/GabrielVesal/JogodaMemoria.git
 
 2. Abra o arquivo `index.html` em um navegador da web.
 
