@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <h1>Jogo da Memória</h1>
+      <div id="difficulty">
+        <button id="easy">Fácil</button>
+        <button id="hard">Difícil</button>
+      </div>
+      <div id="game-info">
+        <div id="score">Pontuação: 0</div>
+        <button id="restart" style="display: none">Jogar Novamente</button>
+      </div>
+      <div id="game-board-container">
+        <div id="game-board" class="game-board"></div>
+        <div id="ranking">
+          <h2>Ranking</h2>
+          <ul id="ranking-list"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

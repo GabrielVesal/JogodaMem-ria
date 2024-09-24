@@ -1,0 +1,121 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#game-container {
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 60px;
+}
+
+#game-board-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.game-board {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+  margin: 20px 20px 20px 0;
+  padding: 20px;
+  overflow: hidden;
+  max-height: 80vh;
+}
+
+#game-board.easy {
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+}
+
+#game-board.hard {
+  grid-template-columns: repeat(6, 80px);
+  grid-template-rows: repeat(6, 80px);
+  padding-bottom: 40px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.card.flipped {
+  background-color: transparent;
+}
+
+.card div {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.flipped div,
+.matched div {
+  display: block;
+}
+
+#game-info {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#score {
+  margin: 10px 0;
+}
+
+#difficulty {
+  margin: 20px 0;
+}
+
+#difficulty button {
+  margin: 0 10px;
+}
+
+#ranking {
+  margin-top: 30px;
+  text-align: left;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+#ranking h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
